@@ -1,0 +1,5 @@
+# Ignorar la carpeta .vscode
+.vscode/
+
+# Ignorar dependencias de Node.js
+node_modules/
