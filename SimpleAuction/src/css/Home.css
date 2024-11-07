@@ -1,0 +1,46 @@
+/* src/css/HomePage.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f3f1ec;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6c6c6c;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 4rem;       /* Aumentar el tamaño de la fuente para destacar */
+  font-weight: 800;      /* Extra Bold para más énfasis */
+  color: #2c2c2c;      /* Color del título */
+  max-width: 800px;      /* Limitar el ancho máximo para hacer el wrapping */
+  margin: 0 auto;        /* Centrar el título horizontalmente */
+  line-height: 1.1;      /* Ajustar el espaciado entre líneas para mantener el equilibrio */
+}
+
+button {
+  margin-top: 20px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ff5252;
+  transform: scale(1.05);
+}

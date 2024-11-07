@@ -1,0 +1,9 @@
+/* src/components/App.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del 100% del viewport */
+    text-align: center;
+  }  

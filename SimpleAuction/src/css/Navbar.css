@@ -1,0 +1,96 @@
+/* src/css/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf7f2;
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: baseline;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    /* Ajustar para alinear exactamente con "Subasta Simple" */
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu li {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    /* Quitar márgenes adicionales para evitar desalineación */
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #3c3c3c;
+    /* Color oscuro para el texto */
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: #ff7e67;
+    /* Cambiar el color al pasar el mouse */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    /* Ajustar para alinear exactamente con "Oferta actual" */
+}
+
+.navbar-button.connect-wallet {
+    background-color: #000000;
+    /* Color negro cuando no hay wallet conectada */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button.connect-wallet.connected {
+    background-color: #86abe1;
+    /* Color turquesa cuando está conectada */
+    color: white;
+}
+
+.navbar-button:hover {
+    background-color: #155659;
+    /* Cambiar el color al pasar el mouse */
+}
+
+.navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* src/css/Navbar.css */
+
+.start-new-auction-text {
+    color: #007bff; /* Color inicial */
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .start-new-auction-text:hover {
+    color: #0056b3; /* Color al pasar el cursor */
+    text-decoration: underline;
+  }  

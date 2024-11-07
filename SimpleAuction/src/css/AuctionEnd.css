@@ -1,0 +1,111 @@
+/* src/css/AuctionEnd.css */
+
+.auction-end-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.auction-end-left {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+
+.auction-end-left p {
+    margin-bottom: 10px;
+}
+
+.auction-end-right {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+
+.end-auction-button {
+    background-color: #ff7e67;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.end-auction-button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+    color: #a0a0a0;
+}
+
+.highest-bid-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highest-bid-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-address {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+.wallet-label {
+    font-size: 14px;
+    color: #6f6f6f;
+    margin-top: 5px;
+}
+
+.highest-bid-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bid-amount {
+    font-size: 30px;
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+.currency-label {
+    font-size: 14px;
+    color: #6f6f6f;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.auction-end-right .wallet-address,
+.auction-end-right .wallet-label,
+.auction-end-right .bid-amount {
+    margin-top: 10px;
+}
+
+/* Nuevo contenedor para alinear el botón y el estado en una fila */
+.auction-action-container {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Espacio entre el botón y el estado */
+    margin-top: 10px;
+}
+
+.auction-status {
+    font-size: 14px;
+    color: #333;
+    margin-left: 110px; /* Ajusta este valor para moverlo más a la derecha */
+    text-align: right;
+}
+
+.bold-status {
+    font-weight: bold;
+}
