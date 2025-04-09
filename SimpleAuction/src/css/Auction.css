@@ -1,0 +1,33 @@
+/* src/css/Auction.css */
+
+.auction-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    overflow-x: visible;
+    margin-bottom: 100px; /* Añade un poco de espacio inferior */
+}
+
+.bid-form-wrapper,
+.highest-bid-wrapper {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+
+.bid-list-wrapper {
+    flex: 1 1 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.auction-end-wrapper {
+    flex: 1 1 100%;
+    max-width: 100%;
+}

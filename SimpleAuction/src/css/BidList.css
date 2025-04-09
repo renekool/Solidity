@@ -1,0 +1,55 @@
+/* src/css/BidList.css */
+
+.bid-list-container {
+    padding: 20px 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bid-list-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3c3c3c;
+    margin-bottom: 20px;
+}
+
+.bid-list-table {
+    width: 100%;
+    border-collapse: collapse; /* Unir bordes para mostrar solo las líneas horizontales */
+    font-family: 'Poppins', sans-serif;
+}
+
+.bid-list-table th {
+    font-size: 12px; /* Texto más pequeño para los encabezados */
+    text-transform: uppercase;
+    color: #000000; /* Texto blanco */
+    text-align: left;
+    padding: 12px 15px;
+    background-color: #f8f8f8; /* Color azul claro para los encabezados */
+    border-bottom: 2px solid #e0e0e0; /* Línea horizontal debajo de los encabezados */
+}
+
+.bid-list-table td {
+    font-size: 13px; /* Texto más pequeño para las celdas */
+    color: #3c3c3c; 
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0; /* Solo líneas horizontales */
+    white-space: nowrap; /* No permitir el salto de línea en celdas */
+}
+
+.bid-list-table td:nth-child(3),
+.bid-list-table td:nth-child(4),
+.bid-list-table th:nth-child(3),
+.bid-list-table th:nth-child(4) {
+    text-align: right; /* Alinear columnas "Oferta (ETH)" y "Status" a la derecha */
+}
+
+.bid-list-table tr {
+    border: none; /* Asegurarse de que no haya bordes verticales */
+}
+
+.bid-list-table tr:hover {
+    background-color: #f0f8ff; /* Azul muy claro cuando se pasa el mouse */
+    cursor: pointer; /* Cambiar el cursor a puntero cuando se pasa el mouse */
+}

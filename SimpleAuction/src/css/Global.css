@@ -1,0 +1,14 @@
+/* src/css/Global.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;  /* Permite cualquier desplazamiento horizontal */  
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf7f2; /* Ajusta el color de fondo según el diseño */
+}
