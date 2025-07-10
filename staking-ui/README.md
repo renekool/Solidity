@@ -1,4 +1,4 @@
-# 🪙 Staking Platform - Proof of Concept
+# Staking UI - Interface de staking de tokens
 
 ## 🧩 Problem to Solve
 
