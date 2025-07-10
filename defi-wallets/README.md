@@ -1,4 +1,4 @@
-# 🪙 DeFi Application - Full Stack Development
+# DeFi Application - Full Stack Development
 
 ## 🧩 Problem to Solve
 
